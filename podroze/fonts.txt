@@ -1,0 +1,8 @@
+OpenSans Regular
+OpenSans SemiBold
+OpenSans Bold
+OpenSans Italic
+OpenSans Bold Italic
+OpenSans ExtraBold
+OpenSans ExtraBoldItalic
+Montserrat
