@@ -106,6 +106,8 @@ body {
     background-image: url(shape-2.png);
     position: absolute;
     width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 100px;
     top: 825px;
 }
@@ -113,7 +115,7 @@ body {
 .lets-go { 
     background-color: white;
     width: 100%;
-    height: 700px;
+    height: 300px;
     display: flex;
     justify-content: center;
     align-content: center;
@@ -132,3 +134,188 @@ body {
     margin-top: 150px;
     text-align: center;
 } 
+
+.show-more { 
+    display: flex;
+    justify-content: space-evenly;
+    background-image: url(background-shadow.png);
+    background-color: white;
+    width: 100%;
+    height: 700px;
+    background-repeat: no-repeat;
+}
+
+.show-more-box { 
+    height: 475px;
+    opacity: 90%;
+    background-color: #82786F;
+}
+
+.show-more-button-block {
+    background-image: url(background-shadow.png);
+    background-color: white;
+}
+
+.show-more-button { 
+    height: 50px;   
+    position: absolute;
+    border-radius: 25px;
+    border: none;
+    display: inline-block;
+    background-color: #82786F;
+    width: 200px;
+    color: white;
+    font-size: 100%;
+    font-weight: 600;
+    margin-top: 550px;
+    letter-spacing: 1px;
+}
+
+.show-more-button:hover { 
+    opacity: 75%;
+    transition: 0.5s;
+    transform: scale(1.2) perspective(10px);
+}
+
+.discount { 
+    display: flex;
+    height: 950px;
+    width: 100%;
+}
+
+.discount img { 
+    width: 50%;
+}
+
+.discount-box { 
+    background-color: #82786F;
+    width: 50%;
+    height: 950px;
+}
+
+.discount-button { 
+    margin-left: 75px;
+    margin-top: 100px;
+    width: 250px;
+    height: 50px;
+    border: none;
+    border-radius: 25px;
+    background-color: #F6A44E;
+    color: white;
+    font-size: 120%;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+.discount-button:hover { 
+    opacity: 75%;
+    transition: 0.5s;
+    transform: scale(1.1) perspective(10px);
+}
+
+.promo { 
+    display: flex;
+    width: 100%;
+    height: 950px;
+}
+
+.promo img {
+    height: 950px;
+    width: 50%;
+}
+
+.promo-box { 
+    width: 50%;
+    background-color: #EDB47C;
+}
+
+.shape-3 img { 
+    position: absolute;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.mountains { 
+    background-image: url(background-shadow.png);
+    width: 100%;
+    height: 900px;
+    background-color:#9C938E;
+}
+
+.shape-4 img{ 
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    top: 4600px;
+}
+
+.explore { 
+    background-image: url(section.jpg);
+    background-position: center;
+
+    background-size: cover;
+    background-position: right 100px;
+    margin-top: 100px;
+    width: 100%;
+    height: 1100px;
+}
+
+.explore-text-explore { 
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 450px;
+    font-size: 600%;
+    color: #ECB47C;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-shadow: 5px -5px 17px gray;
+    font-style: italic;
+}
+
+.explore-text-world { 
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 550px;
+    color: #54504D;
+    font-weight: 700;
+    text-shadow: 5px -5px 17px gray;
+    font-style: italic;
+    font-size: 600%;
+    object-fit: scale-down;
+}
+
+.shape-5 img { 
+    position: absolute;
+    width: 2000px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 5800px;
+}
+
+.lorem-ipsum { 
+    width: 100%;
+    height: 500px;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.lorem-ipsum-box { 
+    background-color: white;
+    margin-top: 200px;
+    width: 400px;
+    height: 100px;  
+}
+
+.comma { 
+    width: 100%;
+    height: 500px;
+    background-image: url(background-shadow.png);
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding-top: 100px;
+}
